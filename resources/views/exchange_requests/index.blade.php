@@ -58,7 +58,6 @@
 
                                     <form action="{{ route('exchange-requests.reject', $request) }}" method="POST">
                                         @csrf
-                                        @method('DELETE') 
                                         <x-danger-button type="submit" class="bg-red-600 hover:bg-red-700">
                                             Reject
                                         </x-danger-button>
